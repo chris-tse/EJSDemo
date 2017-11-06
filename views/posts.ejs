@@ -1,0 +1,8 @@
+<h1>The Posts Page</h1>
+
+<% posts.forEach( (post) => { %>
+    <li>
+        <p><strong><%= post.title %></strong></p>
+        <p><%= post.author %></p>
+    </li>
+<% }) %>
